@@ -88,7 +88,7 @@ if __name__ == '__main__':
         result = str(res.json())
         print(result)
         # 这里取值是从1开始，但是表格中需要从第二行开始写入，第一行是行头
-        db.write_back(item["caseId"]+1 ,result)
+        db.write_back(item["caseId"]+1 ,"result",result)
 
 
 

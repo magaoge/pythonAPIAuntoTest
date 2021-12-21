@@ -1,8 +1,8 @@
 import requests
 
 class HttpRequest:
-
-    def http_request(self,method,url,data = None,headers = None ,verify=False):
+    @staticmethod
+    def http_request(method,url,data = None,headers = None ,verify=False):
         try:
             if method.upper() == "GET":
                 res = requests.get(url,params=data,verify=verify)
