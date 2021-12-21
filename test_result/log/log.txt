@@ -1,0 +1,7 @@
+2021-12-20 15:40:50,440-INFO-test_to_test.py-magaoge-日志信息：我的级别是info
+2021-12-20 15:40:50,440-ERROR-test_to_test.py-magaoge-日志信息：我的级别是error
+2021-12-20 15:40:50,440-CRITICAL-test_to_test.py-magaoge-日志信息：我的级别是critical
+2021-12-20 15:48:56,974-INFO-test_to_test.py-magaoge-日志信息：我是info级别日志
+2021-12-20 15:48:56,975-DEBUG-test_to_test.py-magaoge-日志信息：我是debug级别日志
+2021-12-20 19:39:13,543-INFO-mylog.py-magaoge-日志信息：邮件发送成功！2021-12-20_19_39_09
+2021-12-20 19:50:48,792-INFO-mylog.py-magaoge-日志信息：邮件发送成功！2021-12-20_19_50_45
