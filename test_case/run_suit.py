@@ -7,7 +7,8 @@
 
 import unittest
 import haohan_HTMLTestRunner
-from request_case import HttpRequestCase
+import request_case
+from request_case import *
 from tools.path_maneger import *
 
 suite = unittest.TestSuite()
@@ -15,6 +16,7 @@ suite = unittest.TestSuite()
 
 loader = unittest.TestLoader()
 suite.addTest(loader.loadTestsFromTestCase(HttpRequestCase))
+suite.addTest(loader.loadTestsFromTestCase(DelAccountCase))
 
 runner = unittest.TextTestRunner()
 

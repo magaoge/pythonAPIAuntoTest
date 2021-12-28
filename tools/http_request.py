@@ -1,5 +1,8 @@
 import requests
 
+from tools.mylog import MyLog
+
+
 class HttpRequest:
     @staticmethod
     def http_request(method,url,data = None,headers = None ,verify=False):
@@ -8,6 +11,7 @@ class HttpRequest:
                 res = requests.get(url,params=data,verify=verify)
                 return res
             elif method == "POST":
+                MyLog().info(data)
                 res = requests.post(url,data=data,headers=headers,verify=verify)
                 return res
             elif method.upper() == "DELETE":

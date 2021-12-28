@@ -1,2 +1,0 @@
-class GetToken:
-    TOKEN = None
